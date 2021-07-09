@@ -48,6 +48,6 @@ const collision = () => {
     const d = dist(walker1.x, walker1.y, walker2.x, walker2.y);
 
     if(d < walker2.radius){
-      walker3 = new Walker(walker1.x, walker1.y, radius, 255, 0, 255);
+      walker3 = new Walker(walker1.x, walker1.y, walker1.radius, 255, 0, 255);
     }
 }
