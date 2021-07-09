@@ -26,7 +26,7 @@ function draw() {
     text('Red', width/2-15, 20);
     fill(255);
     text('=', width/2+20, 20);
-    fill(255, 0, 255);
+    fill(191, 64, 191);
     text('Purple', width/2+40, 20);
 
     walker1.draw();
